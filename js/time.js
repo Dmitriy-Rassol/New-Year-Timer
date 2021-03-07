@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 timeRemaining = (dateStop - dateNow) / 1000,
                 seconds = new Date().getSeconds(),
                 minutes = new Date().getMinutes(),
-                daysBefore = Math.floor(timeRemaining / 60 / 60 / 24 % 60),
+                daysBefore = Math.floor(timeRemaining / 60 / 60 / 24),
                 hours = new Date().getHours(),
                 ampm = hours >= 12 ? 'PM' : 'AM',
                 dayWeek = new Date().getDay();
