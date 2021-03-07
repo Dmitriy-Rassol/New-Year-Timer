@@ -86,6 +86,6 @@ document.addEventListener('DOMContentLoaded', () => {
         updateClock();
     }
 
-    countTimer('1 jan 2021');
+    countTimer('1 jan 2022');
 
 });
